@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Space+Mono:wght@700&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* =======================
+      COLOURS
+=========================*/
+.btn-col-1 {
+  background-color: #dab544;
+  color : black;
+}
+.btn-col-2 {
+  background-color: #050907;
+  color : white;
+}
+.flexy-cen, .flexy-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.year {
+  color: orange;
+  text-shadow: 1px 2px 3px black;
+  font-size: 1.4rem;
+}
+/* =========================================
+            HEADER SECTION
+========================================== */
+header {
+  border-bottom: 5px solid rgb(196, 155, 19);
+}
+header aside {
+  width: 100%;
+  min-height: 6vh;
+  background-color: #f7a00a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0px 0% 0px 28px;
+  font-style: italic;
+}
+.nav-link {
+  color: #dd3c15 !important;
+  font-weight: 700 !important;
+}
+.carousel-control-next, .carousel-control-prev {
+  right: 0;
+  transform: translate(10px, 50%);
+  top: 33% !important;
+  background: orange !important;
+  width: 120px !important;
+  height: 100px;
+}
+#map {
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+iframe {
+  width: 100%;
+  height: 600px;
+  
+}
+header article {
+  width : 100%;
+  display: flex;
+}
+header .social-links {
+  margin-right: 100px;
+}
+header .social-links a {
+  margin: 5px;
+}
+ header article .flexy-cen {
+   width: 100%;
+  align-content: flex-end;
+ }
+header article ul{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin : auto;
+}
+
+header article ul li{
+  list-style: none;
+  text-align: center;
+  width : 140px;
+}
+header article ul li a {
+  width : 140px;
+  height: 100%;
+  font-weight: 700;
+  color:#006633 ;
+}
+header .logo {
+  width : 80px;
+}
+/* =======================================
+        CUSTOMIZED tags
+ ======================================= */
+.flexy-cen,
+.flexy-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flexy-col {
+  flex-direction: column;
+}
+.refer {
+  background: url("../assests/gallery/") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+}
+.refer .flexy-col {
+  margin: auto;
+  text-align: center;
+}
+/* =======================================
+        CUSTOMIZED HEADDINGS
+ ======================================= */
+
+ /* =======================================
+          DEFAULT COLOURS
+  ======================================= */
+ .clr1 {
+     background-color: #009933 !important;
+ 	   color : white;
+ }
+ .clr2 {
+ 	background-color: #dab544 !important;
+ 	color : #dd3c15;
+ }
+ .clr3 {
+ 	background-color: #e8e8e8 !important;
+ 	color : black;
+ }
+
+ /* =======================================
+            CUSTOMED BUTTONS
+  ======================================= */
+  button {
+    width: 130px;
+    height: 35px;
+    line-height:35px;
+    outline : none;
+    border : none;
+    transition: all 0.5s ease-in-out;
+}
+
+
+/* =======================================
+           HOVER ACTIVE FOCUS
+ ======================================= */
+ .move-up-icon img:hover {
+  transform : rotate(0deg);
+  opacity : 1;
+}
+ /* =========================================
+             IMAGES SECTION
+ ========================================== */
+ header .social-links img{
+  height: 18px;
+  width : 18px;
+}
+header article img {
+   width: 270px;
+   height: 90px;
+}
+.footer-links img {
+  width: 108px;
+}
+#service-home img  {
+  width: 100%;
+  height: 245px;
+}
+#footer-detail aside img {
+  width: 70px;
+  height: 70px;
+}
+#news img {
+  width : 98%;
+  margin : 10px auto;
+}
